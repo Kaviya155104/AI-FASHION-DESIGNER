@@ -1,0 +1,49 @@
+#measure {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#measure h2 {
+    color: #ff4e50;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#measure p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#measureForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#measureForm input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 2px solid #ff4e50;
+    border-radius: 8px;
+    outline: none;
+}
+
+#measureForm button {
+    padding: 12px;
+    background: linear-gradient(45deg, #f9d423, #ff4e50);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#measureForm button:hover {
+    background: linear-gradient(45deg, #ff4e50, #f9d423);
+}
