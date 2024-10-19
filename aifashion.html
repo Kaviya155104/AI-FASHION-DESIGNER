@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fashion Designer</title>
+    <link rel="stylesheet" href="aifashion.css">
+</head>
+<body>
+    <div class="main-heading">
+        <h1>AI FASHION DESIGNER</h1>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#signup" class="nav-link">Signup</a></li>
+                <li><a href="#login" class="nav-link">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to AI Fashion Designer</h2>
+        <p>Design your clothes based on your body type and style preferences with AI!</p>
+        <ul>
+            <li>AI-based clothing recommendations tailored to your body shape.</li>
+            <li>Visualize custom designs using AI-powered tools.</li>
+            <li>Personalized styling advice based on your preferences.</li>
+            <li>Shopping with AI-curated fashion collections.</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are an AI-powered fashion designing platform helping create custom outfits tailored to your style and body type.</p>
+        <ul>
+            <li>Powered by cutting-edge AI and fashion expertise.</li>
+            <li>Offer personalized clothing design for all body types.</li>
+            <li>Stay fashionable with the latest trends customized to you.</li>
+            <li>Focused on sustainable fashion with eco-friendly designs.</li>
+        </ul>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide personalized fashion designs and styling recommendations powered by AI.</p>
+        <ul>
+            <li>AI-driven clothing design based on your preferences.</li>
+            <li>Personalized styling advice for current trends.</li>
+            <li>Virtual try-on experience for real-time previews.</li>
+            <li>AI-curated shopping recommendations.</li>
+            <li>Custom design options for special occasions.</li>
+        </ul>
+    </section>
+
+    <form action="connect.php" method="POST" id="signupForm">
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+    
+
+    <section id="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="loginUsername" placeholder="Username" required>
+            <input type="email" id="loginEmail" placeholder="Email" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+<!-- <a href="measurement.html">login</a> -->
+        </form>
+    </section>
+
+    <section id="stats">
+        <h2>Fashion Stats</h2>
+        <div class="stats-container">
+            <div>
+                <h3><span id="designs" class="counter" data-target="500">0</span>+</h3>
+                <p>Designs Created</p>
+            </div>
+            <div>
+                <h3><span id="customers" class="counter" data-target="1200">0</span>+</h3>
+                <p>Satisfied Customers</p>
+            </div>
+            <div>
+                <h3><span id="styles" class="counter" data-target="1000">0</span>+</h3>
+                <p>Styles Recommended</p>
+            </div>
+        </div>
+    </section>
+</form>
+
+    <script src="aifashion.js"></script>
+</body>
+</html>
